@@ -9,10 +9,10 @@ function Todoitem({ completed, id, title, handledelete, handletoggle }) {
         checked={completed}
         onChange={(e) => handletoggle(id, e.target.checked)}
       ></input>
-      <span className={completed ? "checked" : ""}>{title}</span>
+      <span className={`title ${completed ? "checked" : ""}`}>{title}</span>
 
       <button className="delete" onClick={() => handledelete(id)}>
-        X
+        ❌
       </button>
     </li>
   );

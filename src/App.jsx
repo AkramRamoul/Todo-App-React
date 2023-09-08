@@ -41,6 +41,7 @@ function App() {
         todos={todos}
         handledelete={handledelete}
         handletoggle={handletoggle}
+        setTodos={setTodos}
       />
     </div>
   );
