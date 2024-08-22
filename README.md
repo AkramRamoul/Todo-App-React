@@ -2,5 +2,4 @@ Description: A task management or to-do list app where users can create, update,
 
 Demo : https://akramramoul.github.io/Todo-App-React/
 
-Demo : [[[https://akramramoul.github.io/Todo-App-React/](https://akramramoul.github.io/Todo-App-React/)](https://akramramoul.github.io/todo-app-typescript/)
 
